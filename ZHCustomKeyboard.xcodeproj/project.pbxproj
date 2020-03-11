@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		506B960B2418F84800020A1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 506B960A2418F84800020A1A /* AppDelegate.m */; };
-		506B960E2418F84800020A1A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 506B960D2418F84800020A1A /* SceneDelegate.m */; };
 		506B96112418F84800020A1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506B96102418F84800020A1A /* ViewController.m */; };
 		506B96142418F84800020A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506B96122418F84800020A1A /* Main.storyboard */; };
 		506B96162418F85100020A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506B96152418F85100020A1A /* Assets.xcassets */; };
@@ -39,8 +38,6 @@
 		506B96062418F84800020A1A /* ZHCustomKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHCustomKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		506B96092418F84800020A1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		506B960A2418F84800020A1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		506B960C2418F84800020A1A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		506B960D2418F84800020A1A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		506B960F2418F84800020A1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		506B96102418F84800020A1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		506B96132418F84800020A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,8 +103,6 @@
 			children = (
 				506B96092418F84800020A1A /* AppDelegate.h */,
 				506B960A2418F84800020A1A /* AppDelegate.m */,
-				506B960C2418F84800020A1A /* SceneDelegate.h */,
-				506B960D2418F84800020A1A /* SceneDelegate.m */,
 				506B960F2418F84800020A1A /* ViewController.h */,
 				506B96102418F84800020A1A /* ViewController.m */,
 				506B96122418F84800020A1A /* Main.storyboard */,
@@ -270,7 +265,6 @@
 				506B96112418F84800020A1A /* ViewController.m in Sources */,
 				506B960B2418F84800020A1A /* AppDelegate.m in Sources */,
 				506B961C2418F85100020A1A /* main.m in Sources */,
-				506B960E2418F84800020A1A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8H6HKVCBR9;
 				INFOPLIST_FILE = ZHCustomKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8H6HKVCBR9;
 				INFOPLIST_FILE = ZHCustomKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
